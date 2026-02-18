@@ -1,4 +1,4 @@
-# Flow Track
+# FlowTrack
 A SaaS landing page project designed to demonstrate proficiency in Bootstrap, responsive design, and modern web development practices. The goal is to create a polished, professional marketing website for a fictional task management tool called FlowTrack.
 
 
