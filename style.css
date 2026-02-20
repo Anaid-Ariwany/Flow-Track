@@ -18,8 +18,9 @@ body {
 
 
 /* ###### header & nav styling ########## */
+
 header {
-    padding: 2rem 3rem;
+    padding: 2.5rem 3rem;
     background-color: #EFF6FE;
 }
 
@@ -29,6 +30,7 @@ header {
 }
 
 .navbar {
+    padding: 1.5rem 3rem 1rem 3rem;
     background-color: #EFF6FE;
 }
 
@@ -74,3 +76,59 @@ header {
 }
 
 /* ###### hero section styling ########## */
+
+.heroSection {
+    background-color: #EFF6FE;
+    padding: 4rem 3rem 2rem 3rem;
+}
+
+.heroLeftDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    padding: 0 2rem 0 2rem;
+}
+
+.img-fluid {
+    max-width: 40rem;
+    height: auto;
+}
+
+.display-4 {
+    font-weight: bold;
+}
+
+.heroLeftDiv p {
+    line-height: 1.5;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+
+.heroButtonDiv {
+    display: flex;
+    gap: 2rem;
+}
+
+.blueTrialButton {
+    background-color: #0d6efd;
+    color: #EFF6FE;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.viewDemoButton {
+    background-color: #EFF6FE;
+    color: #212529;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #0d6efd;
+}
+
+.blueTrialButton:hover,
+.viewDemoButton:hover {
+    font-weight: bold;
+}
+
+/* ###### key features section styling ########## */
