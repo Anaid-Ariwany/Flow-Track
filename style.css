@@ -1,0 +1,76 @@
+/* 
+background-color: #f8f9fa
+
+text: #212529
+
+button: #0d6efd
+
+accent/section: #EFF6FE
+*/
+
+body {
+    margin: 0;
+    background-color: #f8f9fa;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+
+/* ###### header & nav styling ########## */
+header {
+    padding: 2rem 3rem;
+    background-color: #EFF6FE;
+}
+
+.logo {
+    width: 10rem;
+    height: auto;
+}
+
+.navbar {
+    background-color: #EFF6FE;
+}
+
+.buttonDiv {
+    justify-content: flex-end;
+}
+
+.loginLinks {
+    gap: 2rem;
+}
+
+.nav-link {
+    color: #212529;
+}
+
+.nav-link:hover {
+    color: #0d6efd;
+}
+
+.loginLink {
+    border: 1px solid #0d6efd;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    max-width: max-content;
+}
+
+.loginLink:hover {
+    font-weight: bold;
+}
+
+.freeTrialLink {
+    background-color: #0d6efd;
+    color: #EFF6FE;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    max-width: max-content;
+}
+
+.freeTrialLink:hover {
+    background-color: #0d6efd;
+    color: #EFF6FE;
+    font-weight: bold;
+}
+
+/* ###### hero section styling ########## */

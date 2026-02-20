@@ -48,21 +48,30 @@
 
 <body>
     <header>
-        <nav>
-            <div>
-                <img src="assets/logoNB.webp" alt="logoNB">
-                <ul>
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">FAQ</a></li>
-                </ul>
-            </div>
+        <nav class="navbar navbar-expand-md fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/logoNB.webp" alt="logoNB" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div>
-                <ul>
-                    <li><a href="#">Login</a></li>
-                    <li><a href="#">Start Free Trial</a></li>
-                </ul>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div class="collapse navbar-collapse buttonDiv" id="navbarNav">
+                    <ul class="navbar-nav loginLinks">
+                        <li class="nav-item"><a class="nav-link loginLink" href="#">Login</a></li>
+                        <li class="nav-item"><a class="nav-link freeTrialLink" href="#">Start Free Trial</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
@@ -365,7 +374,7 @@
     <!-- footer -->
     <footer>
         <div>
-            <img src="assets/logoNB.webp" alt="logoNB">
+            <img src="assets/logoNB.webp" alt="logoNB" class="logo">
             <p>&copy; 2026 FlowTrack. All rights reserved.</p>
             <p><i>Made by Anaid Ariwany</i></p>
         </div>
