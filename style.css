@@ -140,7 +140,8 @@ header {
 /* ###### key features section styling ########## */
 
 .keyFeatureSection,
-.reviewSection {
+.reviewSection,
+.faqSection {
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -150,7 +151,8 @@ header {
 .topFeatureDiv,
 .howItWorksTopDiv,
 .reviewTopDiv,
-.pricingTopDiv {
+.pricingTopDiv,
+.faqTopDiv {
     display: flex;
     justify-content: center;
 }
@@ -342,4 +344,27 @@ header {
     background-color: #0e06f3;
     color: white;
     border: none;
+}
+
+
+/* ###### FAQ section styling ########## */
+
+.faqBottomDiv {
+    padding: 0 10rem;
+}
+
+.accordion-body,
+.accordion-button {
+    background-color: #cbd9ea;
+    border-bottom: 1px solid #212529;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+.accordion-body:not(.collapsed) {
+    background-color: #CFE2FF;
+}
+
+.accordion-button:not(.collapsed) {
+    border-bottom: 1px dashed #212529;
 }

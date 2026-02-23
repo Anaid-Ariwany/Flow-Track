@@ -329,64 +329,76 @@
         </div>
     </section>
 
-    <!-- section -->
-    <section>
+    <!-- FAQ section -->
+    <section class="faqSection">
         <!-- top div -->
-        <div>
+        <div class="faqTopDiv">
             <h2>Frequently Asked Questions</h2>
         </div>
 
         <!-- bottom div -->
-        <div>
+        <div class="faqBottomDiv">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Is there a free trial?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <em>Yes, there is a 14-day free trial available for all users. You can upgrade or downgrade
+                                your
+                                subscription at any time.</em>
+                        </div>
+                    </div>
+                </div>
 
-            <!-- faq -->
-            <div>
-                <!-- Q -->
-                <div>
-                    <p>Is there a free trial?</p>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Can I cancel anytime?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <em>Yes, you can cancel your subscription at any time from your account settings. In case
+                                you have
+                                trouble canceling, please contact our support team.</em>
+                        </div>
+                    </div>
                 </div>
-                <!-- A -->
-                <div>
-                    <p>Yes, there is a 14-day free trial available for all users. You can upgrade or downgrade your
-                        subscription at any time.</p>
-                </div>
-            </div>
 
-            <!-- faq -->
-            <div>
-                <!-- Q -->
-                <div>
-                    <p>Can I cancel anytime?</p>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Do you offer team discounts?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <em>Yes, we offer special pricing for teams of 10 or more users.</em>
+                        </div>
+                    </div>
                 </div>
-                <!-- A -->
-                <div>
-                    <p>Yes, you can cancel your subscription at any time from your account settings. In case you have
-                        trouble canceling, please contact our support team.</p>
-                </div>
-            </div>
 
-            <!-- faq -->
-            <div>
-                <!-- Q -->
-                <div>
-                    <p>Do you offer team discounts?</p>
-                </div>
-                <!-- A -->
-                <div>
-                    <p>Yes, we offer special pricing for teams of 10 or more users.</p>
-                </div>
-            </div>
-
-            <!-- faq -->
-            <div>
-                <!-- Q -->
-                <div>
-                    <p>Is my data secure?</p>
-                </div>
-                <!-- A -->
-                <div>
-                    <p>Yes, all data is encrypted and securely stored using industry-standard security practices. All
-                        our data practices are compliant with GDPR and other relevant regulations.</p>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Is my data secure?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <em>Yes, all data is encrypted and securely stored using industry-standard security
+                                practices. All
+                                our data practices are compliant with GDPR and other relevant regulations.</em>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
