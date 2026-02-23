@@ -83,6 +83,11 @@ header {
     display: flex;
 }
 
+.heroLeftDiv,
+.heroRightDiv {
+    width: 50%;
+}
+
 .heroLeftDiv {
     display: flex;
     flex-direction: column;
@@ -134,7 +139,8 @@ header {
 
 /* ###### key features section styling ########## */
 
-.keyFeatureSection {
+.keyFeatureSection,
+.reviewSection {
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -142,7 +148,8 @@ header {
 }
 
 .topFeatureDiv,
-.howItWorksTopDiv {
+.howItWorksTopDiv,
+.reviewTopDiv {
     display: flex;
     justify-content: center;
 }
@@ -185,16 +192,19 @@ header {
     gap: 2rem;
 }
 
-.howItWorksBottomDiv {
+.howItWorksBottomDiv,
+.reviewBottomDiv {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 4rem;
 }
 
-.card {
+.howItWorksBottomDiv>.card {
     background-color: #cbd9ea;
     border-radius: 0.5rem;
+    border: none;
+    width: 20rem;
 }
 
 .step {
@@ -227,4 +237,32 @@ header {
     padding: 1rem 0;
     width: 5rem;
     height: auto;
+}
+
+/* ###### what our users say section styling ########## */
+
+.reviewBottomDiv>.card {
+    background-color: #cbd9ea;
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    border: none;
+    width: 30rem;
+}
+
+.avatarDiv {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.avatarDiv img {
+    width: 4rem;
+    height: auto;
+}
+
+.avatarNameDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 0.8rem;
 }
