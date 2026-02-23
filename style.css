@@ -3,9 +3,9 @@ background-color: #f8f9fa
 
 text: #212529
 
-button: #0d6efd
+button: #0e06f3
 
-accent/section: #EFF6FE
+accent/section: #acc8e7
 */
 
 body {
@@ -21,7 +21,7 @@ body {
 
 header {
     padding: 2.5rem 3rem;
-    background-color: #EFF6FE;
+    background-color: #acc8e7;
 }
 
 .logo {
@@ -31,7 +31,7 @@ header {
 
 .navbar {
     padding: 1.5rem 3rem 1rem 3rem;
-    background-color: #EFF6FE;
+    background-color: #acc8e7;
 }
 
 .buttonDiv {
@@ -47,11 +47,11 @@ header {
 }
 
 .nav-link:hover {
-    color: #0d6efd;
+    color: #0e06f3;
 }
 
 .loginLink {
-    border: 1px solid #0d6efd;
+    border: 1px solid #0e06f3;
     border-radius: 0.5rem;
     padding: 0.5rem 1rem;
     max-width: max-content;
@@ -62,24 +62,25 @@ header {
 }
 
 .freeTrialLink {
-    background-color: #0d6efd;
-    color: #EFF6FE;
+    background-color: #0e06f3;
+    color: white;
     border-radius: 0.5rem;
     padding: 0.5rem 1rem;
     max-width: max-content;
 }
 
 .freeTrialLink:hover {
-    background-color: #0d6efd;
-    color: #EFF6FE;
+    background-color: #0e06f3;
+    color: white;
     font-weight: bold;
 }
 
 /* ###### hero section styling ########## */
 
 .heroSection {
-    background-color: #EFF6FE;
+    background-color: #acc8e7;
     padding: 4rem 3rem 2rem 3rem;
+    display: flex;
 }
 
 .heroLeftDiv {
@@ -111,19 +112,19 @@ header {
 }
 
 .blueTrialButton {
-    background-color: #0d6efd;
-    color: #EFF6FE;
+    background-color: #0e06f3;
+    color: white;
     padding: 0.5rem 1.5rem;
     border-radius: 0.5rem;
     border: none;
 }
 
 .viewDemoButton {
-    background-color: #EFF6FE;
+    background-color: #acc8e7;
     color: #212529;
     padding: 0.5rem 1.5rem;
     border-radius: 0.5rem;
-    border: 1px solid #0d6efd;
+    border: 1px solid #0e06f3;
 }
 
 .blueTrialButton:hover,
@@ -137,10 +138,11 @@ header {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    padding: 2rem 3rem;
+    padding: 3rem 3rem;
 }
 
-.topFeatureDiv {
+.topFeatureDiv,
+.howItWorksTopDiv {
     display: flex;
     justify-content: center;
 }
@@ -170,4 +172,59 @@ header {
     border-radius: 0.5rem;
     max-width: max-content;
     padding: 1rem;
+}
+
+
+/* ###### how it works section styling ########## */
+
+.howItWorksSection {
+    background-color: #acc8e7;
+    padding: 3rem 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.howItWorksBottomDiv {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.card {
+    background-color: #cbd9ea;
+    border-radius: 0.5rem;
+}
+
+.step {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.8rem 1rem 0 1rem;
+}
+
+.stepNumberDIv {
+    width: 1.7rem;
+    height: 1.7rem;
+    border-radius: 50%;
+    background-color: #0e06f3;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stepIconDiv {
+    background-color: #f8f9fa;
+    height: 100%;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.stepIconDiv img {
+    padding: 1rem 0;
+    width: 5rem;
+    height: auto;
 }
