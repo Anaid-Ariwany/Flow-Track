@@ -85,7 +85,7 @@ header {
 
 .heroLeftDiv,
 .heroRightDiv {
-    width: 50%;
+    min-width: 50%;
 }
 
 .heroLeftDiv {
@@ -97,7 +97,7 @@ header {
 }
 
 .img-fluid {
-    max-width: 40rem;
+    min-width: 100%;
     height: auto;
 }
 
@@ -106,9 +106,7 @@ header {
 }
 
 .heroLeftDiv p {
-    line-height: 1.5;
     letter-spacing: 1px;
-    font-size: 1.2rem;
 }
 
 .heroButtonDiv {
@@ -160,7 +158,9 @@ header {
 .bottomFeatureDiv {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding: 0 3rem;
+    gap: 4rem;
 }
 
 .featureIcon {
@@ -349,10 +349,6 @@ header {
 
 /* ###### FAQ section styling ########## */
 
-.faqBottomDiv {
-    padding: 0 10rem;
-}
-
 .accordion-body,
 .accordion-button {
     background-color: #cbd9ea;
@@ -375,6 +371,7 @@ footer {
     background-color: #acc8e7;
     padding: 1rem 3rem;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     font-size: 0.8rem;
@@ -390,4 +387,120 @@ footer a {
 footer a:hover {
     color: #f93403;
     text-decoration: none;
+}
+
+
+/* ######$$$$$ Responsive Design  $$$$$$########## */
+
+/* screens between 768px and 1100px */
+@media (max-width: 1100px) and (min-width: 768px) {
+    .heroSection {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+/* screens between 576px and 767px */
+@media (max-width: 767px) and (min-width: 576px) {
+    .heroSection {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
+
+/* screens between 300px and 575px */
+@media (max-width: 575px) and (min-width: 300px) {
+    .heroSection {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .heroSection P,
+    .heroSection .display-5 {
+        text-align: center;
+    }
+
+    .blueTrialButton,
+    .viewDemoButton {
+        width: 100%;
+        font-size: 0.8rem;
+    }
+
+    .heroButtonDiv {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+}
+
+/* screens below 300px */
+@media (max-width: 299px) {
+    .heroSection {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .heroSection P,
+    .heroSection .display-5 {
+        text-align: center;
+        font-size: 0.9rem;
+    }
+
+    .blueTrialButton,
+    .viewDemoButton {
+        min-width: 100%;
+        font-size: 0.8rem;
+    }
+
+    .heroButtonDiv {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+
+    .avatarDiv {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    #popular {
+        font-size: 0.7rem;
+        padding: 0.2rem 0.4rem;
+    }
+
+    .blueHeaderDiv {
+        padding-left: 0.5rem;
+    }
+
+    .card-header h3 {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .benefitsDiv {
+        font-size: 0.8rem;
+    }
+
+    .accordion-body,
+    .accordion-button {
+        font-size: 0.8rem;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .pricingButtonDiv Button {
+        font-size: 0.8rem;
+    }
 }

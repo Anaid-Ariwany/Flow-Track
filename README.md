@@ -32,3 +32,5 @@ Create a modern SaaS landing page that:
 ## Visual Direction
 Sample of the desired outcome:
 ![alt text](assets/desiredOutcome.webp)
+
+_**PS:** The website is currently non-functional._
