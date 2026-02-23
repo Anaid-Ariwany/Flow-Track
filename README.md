@@ -1,6 +1,8 @@
 # FlowTrack
 A SaaS landing page project designed to demonstrate proficiency in Bootstrap, responsive design, and modern web development practices. The goal is to create a polished, professional marketing website for a fictional task management tool called FlowTrack.
 
+### Live Website
+[View live website here](https://anaid-ariwany.github.io/Flow-Track/)
 
 ### Project Type
 A marketing website for a fictional SaaS product.
@@ -33,4 +35,4 @@ Create a modern SaaS landing page that:
 Sample of the desired outcome:
 ![alt text](assets/desiredOutcome.webp)
 
-_**PS:** The website is currently non-functional._
+_**PS:** The website is currently static._
